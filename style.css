@@ -1,0 +1,18 @@
+:root {
+    --size: 800px;
+    --base-bg-color: #000;
+    --base-fg-color: #09F;
+    --text-color: var(--base-fg-color);
+    --border-color: var(--base-fg-color);
+}
+
+body {
+    background-color: var(--base-bg-color);
+    color: var(--text-color);
+}
+
+#display {
+    width: var(--size);
+    height: var(--size);
+    border: 2px solid var(--border-color);
+}
